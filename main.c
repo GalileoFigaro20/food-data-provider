@@ -90,6 +90,20 @@ int main() {
         printf("%.0f", drinkPrices[i]);
         if(i < noOfDrinks - 1) printf(",");
     }
+
+    for(int i=0;i<noOfFoodTypes;i++) {
+        for(int j=0;j<noOfSpecificFood;j++) {
+            free(specificFood[i][j]);
+        }
+        free(foodTypes[i]);
+        free(foodPrices[i]);
+        free(specificFood[i]);
+    }
+    free(foodTypes);
+    free(drinks);
+    free(foodPrices);
+    free(specificFood);
+    free(noOfSpecificFood);
 }
 
 void readSpecificFood(char * specificFood) {
