@@ -1,0 +1,13 @@
+//
+// Created by Ivan on 12/2/2019.
+//
+
+#ifndef FOOD_DATA_PROVIDER_DEFINES_H
+#define FOOD_DATA_PROVIDER_DEFINES_H
+
+#define MAX_FOOD_NAME 10
+#define MAX_SPECIFIC_FOOD_NAME 20
+#define MAX_LINE 30
+#define MAX_DRINK_NAME 20
+
+#endif //FOOD_DATA_PROVIDER_DEFINES_H
