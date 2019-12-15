@@ -3,4 +3,4 @@ project(food_data_provider C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(food_data_provider main.c)
+add_executable(food_data_provider main.c parseInput.c parseInput.h printOutput.c printOutput.h defines.h)
